@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymleaf模板页</title>
+</head>
+<body>
+<table width="60%" border="1px">
+    <tr th:each="user:${User}">
+        <td th:text="${user.age}"></td>
+        <td th:text="${user.hobby}"></td>
+        <td th:text="${user.name}"></td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spirngboot-one:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spirngboot_one_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spirngboot-one/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spirngboot-one" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spirngboot-one" />
+        <module name="springboot-freemarker" />
+        <module name="springboot-jpa" />
+        <module name="springboot-jsp" />
+        <module name="springboot-starter" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-test" />
+        <module name="springboot-AuctionSystem" />
+        <module name="springboot-Thymleaf" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spirngboot-one" target="1.8" />
+      <module name="springboot-AuctionSystem" target="8" />
+      <module name="springboot-freemarker" target="1.8" />
+      <module name="springboot-jpa" target="8" />
+      <module name="springboot-jsp" target="1.8" />
+      <module name="springboot-mybatis" target="8" />
+      <module name="springboot-starter" target="8" />
+      <module name="springboot-test" target="8" />
+      <module name="springboot-Thymleaf" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spirngboot-one" options="-parameters" />
+      <module name="springboot-AuctionSystem" options="-parameters" />
+      <module name="springboot-Thymleaf" options="-parameters" />
+      <module name="springboot-freemarker" options="-parameters" />
+      <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-jsp" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-test" options="-parameters" />
+    </option>
+  </component>
+</project>

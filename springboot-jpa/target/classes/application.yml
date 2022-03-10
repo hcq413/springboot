@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: 175176as
+    url: 'jdbc:mysql://gz-cdb-975vpfib.sql.tencentcdb.com:57620/txyun?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false'
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
